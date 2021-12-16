@@ -6,21 +6,31 @@
         xmlns:local="clr-namespace:_025_Challenge"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="idk">
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="143" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="402"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="400" Margin="417,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="367"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="252" Margin="10,158,0,0" Stroke="Black" VerticalAlignment="Top" Width="402"/>
-        <Button x:Name="numOfItems" Content="Enter" HorizontalAlignment="Left" Margin="20,103,0,0" VerticalAlignment="Top" Width="382" Height="33"/>
-        <Button x:Name="finalButton" Content="Button" HorizontalAlignment="Left" Margin="20,357,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="Button_Click"/>
-        <TextBox x:Name="box1" HorizontalAlignment="Left" Height="23" Margin="62,274,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="box2" HorizontalAlignment="Left" Height="23" Margin="282,274,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="numberBox" HorizontalAlignment="Left" Height="23" Margin="173,61,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="numOfItems" Content="Enter" HorizontalAlignment="Left" Margin="20,103,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="numOfItems_Click"/>
+        <TextBox x:Name="box1" HorizontalAlignment="Left" Height="23" Margin="62,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="box2" HorizontalAlignment="Left" Height="23" Margin="282,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="numberBox" HorizontalAlignment="Left" Height="23" Margin="173,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="number of items on your list:" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top"/>
         <Label Content="Number of items:" HorizontalAlignment="Left" Margin="40,174,0,0" VerticalAlignment="Top"/>
         <Label x:Name="saved" Content="Label" HorizontalAlignment="Left" Margin="233,174,0,0" VerticalAlignment="Top"/>
         <Label Content="item:" HorizontalAlignment="Left" Margin="20,256,0,0" VerticalAlignment="Top"/>
         <Label Content="price:" HorizontalAlignment="Left" Margin="233,256,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.333,-0.281"/>
         <Label x:Name="result" Content="Label" HorizontalAlignment="Left" Margin="435,28,0,0" VerticalAlignment="Top" Height="362" Width="331"/>
-
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" Margin="352,57,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="enterResults" Content="Print List!" HorizontalAlignment="Left" Margin="20,357,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="enterResults_Click"/>
+        <Button x:Name="finalButton10" Content="Enter" HorizontalAlignment="Left" Margin="20,357,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="Button_Click10"/>
+        <Button x:Name="finalButton9" Content="Enter" HorizontalAlignment="Left" Margin="20,357,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="Button_Click9"/>
+        <Button x:Name="finalButton8" Content="Enter" HorizontalAlignment="Left" Margin="20,357,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="Button_Click8"/>
+        <Button x:Name="finalButton7" Content="Enter" HorizontalAlignment="Left" Margin="20,357,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="Button_Click7"/>
+        <Button x:Name="finalButton6" Content="Enter" HorizontalAlignment="Left" Margin="20,357,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="Button_Click6"/>
+        <Button x:Name="finalButton5" Content="Enter" HorizontalAlignment="Left" Margin="20,357,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="Button_Click5"/>
+        <Button x:Name="finalButton4" Content="Enter" HorizontalAlignment="Left" Margin="20,357,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="Button_Click4"/>
+        <Button x:Name="finalButton3" Content="Enter" HorizontalAlignment="Left" Margin="20,357,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="Button_Click3"/>
+        <Button x:Name="finalButton2" Content="Enter" HorizontalAlignment="Left" Margin="20,357,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="Button_Click2"/>
+        <Button x:Name="finalButton1" Content="Enter" HorizontalAlignment="Left" Margin="20,357,0,0" VerticalAlignment="Top" Width="382" Height="33" Click="Button_Click1"/>
     </Grid>
 </Window>
